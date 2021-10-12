@@ -24,10 +24,11 @@ html, body{
    border-radius: 5px;
    transition: 0.5s;
    display: inline-block;
+	align-items: center;
 }
 
 .nav-title {
-   font-size: 30px;
+   font-size: 25px;
    font-weight: bold;
 }
 
@@ -37,6 +38,10 @@ html, body{
 	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
+}
+
+.nav-img {
+	height: 20px;
 }
 
 .nav-links {
@@ -73,6 +78,7 @@ a {
 	background-image: url("chuttersnap-9AqIdzEc9pY-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
+	margin-bottom: 50px;
 }
 
 .header-text {
@@ -143,4 +149,83 @@ a {
 .footer-grid-item {
 	margin-bottom: 10px;
    text-align: center;
+}
+
+
+.main-info-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.profile-pic {
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.main-info {
+	height: 200px;
+	margin-top: 10px;
+	padding: 15px;
+}
+
+.info-item {
+	margin-bottom: 15px;
+	display: grid;
+   grid-template-columns: 1fr 2fr;
+   align-items: center;
+   grid-column-gap: 15px;
+}
+
+.info-text {
+	font-size: 18px;
+}
+
+.info-logo {
+	height: 45px;
+}
+
+.int-exp-flex {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.list-div {
+	width: 45%;
+}
+
+.list-title {
+	font-size: 20px;
+	text-align: center;
+}
+
+.list-grid {
+	font-size: 15px;
+	display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   grid-column-gap: 15px;
+}
+
+.list-grid-item {
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+	.info-logo {
+		height: 35px;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	.list-div {
+		width: 75%;
+	}
 }
