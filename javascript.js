@@ -1,4 +1,3 @@
-require('dotenv').config();
 const userID = process.env.USER_ID;
 console.log(userID);
 (function() {
