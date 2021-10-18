@@ -1,6 +1,6 @@
 (function() {
 	// https://dashboard.emailjs.com/admin/integration
-	emailjs.init(process.env.USER_ID);
+	emailjs.init("user_W0AklZUmmR2dVY6tbWGdM");
 })();
 
 window.onload = function() {
@@ -9,7 +9,7 @@ window.onload = function() {
 		 // generate a five digit number for the contact_number variable
 		 this.contact_number.value = Math.random() * 100000 | 0;
 		 // these IDs from the previous steps
-		 emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, this)
+		 emailjs.sendForm("service_qkfgmn4", "contact_form", this)
 			  .then(function() {
 					console.log('SUCCESS!');
 			  }, function(error) {
