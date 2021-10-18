@@ -1,5 +1,3 @@
-const userID = process.env.USER_ID;
-console.log(userID);
 (function() {
 	// https://dashboard.emailjs.com/admin/integration
 	emailjs.init(process.env.USER_ID);
