@@ -266,6 +266,20 @@ a {
 	background-color: #D9D9D9;
 }
 
+#success-msg {
+	display: block;
+	font-size: 16px;
+	background-color: #4FFF6C;
+	margin-top: 16px;
+	padding: 5px;
+	text-align: center;
+}
+
+#fail-msg {
+	display: block;
+	background-color: #FF4F4F;
+}
+
 @media screen and (max-width: 400px) {
 	.form-contact {
 		width: 100%;
