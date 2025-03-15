@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe927caf.css",
+    "main.js": "/static/js/main.3658991e.js",
+    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/mateoborina.jpg": "/static/media/mateoborina.6b67034ba786eaf0ee30.jpg",
+    "static/media/resume.pdf": "/static/media/resume.fe1ac8081ceea286bf05.pdf",
+    "static/media/penta.png": "/static/media/penta.1227b7f4d618f8c4bc99.png",
+    "index.html": "/index.html",
+    "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
+    "main.3658991e.js.map": "/static/js/main.3658991e.js.map",
+    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe927caf.css",
+    "static/js/main.3658991e.js"
+  ]
+}
