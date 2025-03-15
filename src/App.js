@@ -50,7 +50,7 @@ const Home = React.forwardRef((props, ref) => {
           heading={repos.heading}
           username={repos.gitHubUsername}
           length={repos.reposLength}
-          specfic={repos.specificRepos}
+          specific={repos.specificRepos}
         />
       )}
       {leadership.show && (
