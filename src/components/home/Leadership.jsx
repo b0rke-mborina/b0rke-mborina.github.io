@@ -12,7 +12,12 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       <h2 className="display-4 pb-5 text-center">{heading}</h2>
       <div className="row">
         <div className="col-md-5">
-          <p className="lead">{message}</p>
+          {message.split("\n").map((line, i) => (
+            <p key={i} className="lead">
+              {line}
+              <br />
+            </p>
+          ))}
         </div>
         <div className="col-md-7">
           <Carousel>
