@@ -42,16 +42,16 @@ const repos = {
   specificRepos: [
     // software developement
     "apartment-manager-backend", "apartment-manager-frontend", "company-crm", "meal-chooser", // "notepad-planer",
+    // cybersecurity
+    "zta-cybersec-suite", // "password-generator",
+    // machine learning
+    "wildfire-detection", // "fipulab-fl",
     // microservices
     "distsys-workers", "distsys-services",
-    // cybersecurity
-    "zta-cybersec-suite", "password-generator",
-    // machine learning
-    "wildfire-detection", "fipulab-fl",
     // data
-    "sales-statistics", "lovstvo-u-hrvatskoj",
+    // "sales-statistics", "lovstvo-u-hrvatskoj",
     // other
-    "praktikum", "car-watch", // "optics-manipulation-tool"
+    // "praktikum", "car-watch", "optics-manipulation-tool"
   ],
 };
 
